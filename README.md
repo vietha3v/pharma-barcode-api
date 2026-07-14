@@ -1,10 +1,11 @@
-# @pharma-barcode/recognition-service
+# pharma-barcode-api
 
-Standalone NestJS microservice wrapping `@pharma-barcode/recognition`.
+Standalone NestJS microservice for pharmaceutical barcode and label recognition.
+Exposes expiry/batch/serial recognition as an HTTP service so backend, mobile,
+and web apps can share one deployable recognition system.
 
-Exposes expiry/batch/serial recognition as an HTTP service so the backend,
-mobile, and web can all share one deployable recognition system (the library is
-also published to npm for offline use).
+> **Prerequisite:** publish `@pharma-barcode/recognition` to npm first, or
+> install it from git until it is available on the registry.
 
 ## Endpoints
 
