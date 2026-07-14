@@ -1,6 +1,6 @@
-# @pharma-erp/recognition-service
+# @pharma-barcode/recognition-service
 
-Standalone NestJS microservice wrapping `@pharma-erp/recognition`.
+Standalone NestJS microservice wrapping `@pharma-barcode/recognition`.
 
 Exposes expiry/batch/serial recognition as an HTTP service so the backend,
 mobile, and web can all share one deployable recognition system (the library is

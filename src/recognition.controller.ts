@@ -10,7 +10,7 @@ import {
 import { FileInterceptor } from '@nestjs/platform-express';
 import { UseInterceptors, UploadedFile } from '@nestjs/common';
 import { RecognitionService } from './recognition.service';
-import type { RecognitionInput } from '@pharma-erp/recognition';
+import type { RecognitionInput } from '@pharma-barcode/recognition';
 
 const API_KEY = process.env.RECOGNITION_API_KEY;
 

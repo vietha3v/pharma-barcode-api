@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { recognize } from '@pharma-erp/recognition';
-import type { AiConfig, RecognitionInput, RecognitionResult } from '@pharma-erp/recognition';
+import { recognize } from '@pharma-barcode/recognition';
+import type { AiConfig, RecognitionInput, RecognitionResult } from '@pharma-barcode/recognition';
 
 @Injectable()
 export class RecognitionService {
